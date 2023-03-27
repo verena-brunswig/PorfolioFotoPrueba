@@ -23,13 +23,14 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 80vh;
+    height:80vh;
     border-radius: 50px;
-    flex: 0.5;
-    transition: flex 0.5 ease-in;
-    color: #fff;
-    cursor: pointer;
-    margin: 10px;
+    flex:0.5;
+    position:relative;
+    transition: flex 0.5s ease-in;
+    color:#fff;
+    cursor:pointer;
+    margin:10px;
 }
 
 .panel h3{
@@ -43,12 +44,12 @@ body{
     flex: 5;
 }
 
-.panel.active.h3{
+.panel.active h3{
     opacity: 1;
 }
 
 @media(max-width:480px){
-    .containter{
+    .container{
         width: 100vw;
     }
 
